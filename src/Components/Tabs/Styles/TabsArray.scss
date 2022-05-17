@@ -1,0 +1,15 @@
+@import '../../../Theme/Theme.scss';
+
+.button-group{
+    margin: auto;
+    margin-top: 50px;
+}
+.buttons{
+    background-color:$primaryColor ;
+    border: $primaryColor;
+}
+.buttons:hover,.buttons:focus,.buttons:active,.buttons.active{
+    background-color: $secondaryColor;
+    box-shadow: none;
+}
+
