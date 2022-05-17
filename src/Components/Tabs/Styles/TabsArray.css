@@ -4,8 +4,8 @@
 }
 
 .buttons {
-  background-color: #86c46c;
-  border: #86c46c;
+  background-color: #86c46cc5;
+  border: #86c46cc5;
 }
 
 .buttons:hover, .buttons:focus, .buttons:active, .buttons.active {

@@ -55,7 +55,7 @@ function RemoveItem({count}) {
         
     )}
             </Container>
-                <Button variant="primary" className=' mb-5 next-button'>Next</Button>
+                <Button variant="primary" className=' mb-5 next-button'>Remove</Button>
 
 </div>
   )

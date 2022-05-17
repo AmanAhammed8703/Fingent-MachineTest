@@ -1,9 +1,14 @@
 .outer-div {
   background-color: #86c46cc5;
   width: 95%;
-  min-height: 550px;
+  height: 550px;
   margin: auto;
   border-radius: 15px;
+  overflow-y: scroll;
+}
+
+.outer-div::-webkit-scrollbar {
+  display: none;
 }
 
 .itemCount {
@@ -28,7 +33,7 @@
   border: none;
 }
 
-.next-button:hover {
+.next-button:hover, .next-button:focus, .next-button:active, .next-button.active {
   background-color: #ffffff;
   color: #4e733f;
 }

@@ -9,10 +9,10 @@ function TabsArray({action}) {
      <Navbar expand="lg" variant="light" bg="light" >
   <Container >
   <ButtonGroup size="lg" className='button-group'>
-    {action==="add"?<Button className="mb-2 buttons" active>Add Product</Button>:<Button className="mb-2 buttons">Add Product</Button>}
-    {action==="remove"?<Button className="mb-2 buttons" active>Remove Products</Button>:<Button className="mb-2 buttons">Remove Products</Button>}
+<Button className={action==="add"?"mb-2 buttons active":"mb-2 buttons"} onClick={()=>navigate('/')} >Add Product</Button>
+ <Button className={action==="remove"?"mb-2 buttons active":"mb-2 buttons"} onClick={()=>navigate('/removeitem')}>Remove Products</Button>
     
-    <Button className="mb-2 buttons">List Products</Button>
+    <Button className={action==="list"?"mb-2 buttons active":"mb-2 buttons"}onClick={()=>navigate('/listitem')}>List Products</Button>
   </ButtonGroup>
   </Container>
 </Navbar>

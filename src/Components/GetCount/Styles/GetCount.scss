@@ -2,17 +2,21 @@
 .outer-div{
     background-color:$primaryColor ;
     width: 95%;
-    max-height: 80vh;
+    height: 550px;
     margin: auto;
     border-radius: 15px;
     overflow-y: scroll;
+
+}
+.outer-div::-webkit-scrollbar{
+    display: none;
 }
 .itemCount{
     width: 20%;
     margin: auto;
 }
 .itemCountLabel{
-    color: $ternartyColor;
+    color: $ternaryColor;
     font-size: 20px;
     
 }
@@ -25,12 +29,12 @@
 .next-button{
     margin-top: 15px;
     background-color: $secondaryColor;
-    color: $ternartyColor;
+    color: $ternaryColor;
     width: 150px;
     border: none;
 }
-.next-button:hover{
-    background-color:$ternartyColor;
+.next-button:hover,.next-button:focus,.next-button:active,.next-button.active{
+    background-color:$ternaryColor;
     color: $secondaryColor;
 }
 .add-item{
