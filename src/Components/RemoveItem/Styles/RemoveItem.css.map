@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,aAAa,CAAA;EACT,KAAK,ECAG,GAAc;CDCzB",
+    "sources": [
+        "RemoveItem.scss",
+        "../../../Theme/Theme.scss"
+    ],
+    "names": [],
+    "file": "RemoveItem.css"
+}
