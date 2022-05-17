@@ -2,7 +2,38 @@
 .outer-div{
     background-color:$primaryColor ;
     width: 95%;
-    min-height: 550px;
+    max-height: 80vh;
     margin: auto;
     border-radius: 15px;
+    overflow-y: scroll;
+}
+.itemCount{
+    width: 20%;
+    margin: auto;
+}
+.itemCountLabel{
+    color: $ternartyColor;
+    font-size: 20px;
+    
+}
+
+    
+.upper-content-div{
+    height: 170px;
+  
+}
+.next-button{
+    margin-top: 15px;
+    background-color: $secondaryColor;
+    color: $ternartyColor;
+    width: 150px;
+    border: none;
+}
+.next-button:hover{
+    background-color:$ternartyColor;
+    color: $secondaryColor;
+}
+.add-item{
+    width: 80%;
+    margin: auto;
 }

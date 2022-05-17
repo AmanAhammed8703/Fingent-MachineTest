@@ -1,15 +1,17 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './Styles/TabsArray.css'
+import{ useNavigate} from 'react-router-dom'
 import {Navbar,Container,ButtonGroup,Button} from 'react-bootstrap'
-function TabsArray() {
+function TabsArray({action}) {
+  const navigate=useNavigate()
   return (
     <div>
      <Navbar expand="lg" variant="light" bg="light" >
   <Container >
   <ButtonGroup size="lg" className='button-group'>
-    <Button className="mb-2 buttons" active>Add Product</Button>
-    <Button className="mb-2 buttons">Remove Products</Button>
+    {action==="add"?<Button className="mb-2 buttons" active>Add Product</Button>:<Button className="mb-2 buttons">Add Product</Button>}
+    {action==="remove"?<Button className="mb-2 buttons" active>Remove Products</Button>:<Button className="mb-2 buttons">Remove Products</Button>}
+    
     <Button className="mb-2 buttons">List Products</Button>
   </ButtonGroup>
   </Container>

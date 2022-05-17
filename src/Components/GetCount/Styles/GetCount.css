@@ -5,4 +5,36 @@
   margin: auto;
   border-radius: 15px;
 }
+
+.itemCount {
+  width: 20%;
+  margin: auto;
+}
+
+.itemCountLabel {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.upper-content-div {
+  height: 170px;
+}
+
+.next-button {
+  margin-top: 15px;
+  background-color: #4e733f;
+  color: #ffffff;
+  width: 150px;
+  border: none;
+}
+
+.next-button:hover {
+  background-color: #ffffff;
+  color: #4e733f;
+}
+
+.add-item {
+  width: 80%;
+  margin: auto;
+}
 /*# sourceMappingURL=GetCount.css.map */

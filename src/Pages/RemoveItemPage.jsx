@@ -1,13 +1,13 @@
 import React from 'react'
 import TabsArray from '../Components/Tabs/TabsArray'
 import GetCount from '../Components/GetCount/GetCount'
-function LandingPage() {
+function RemoveItemPage() {
   return (
     <div>
-        <TabsArray action="add"/>
-        <GetCount action="add"/>
+        <TabsArray action="remove"/>
+        <GetCount action="remove"/>
     </div>
   )
 }
 
-export default LandingPage
+export default RemoveItemPage
